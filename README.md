@@ -2,8 +2,6 @@
 
 为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供的计算机考研信息查找技能（Skill）。加载后，模型会自动遵循一套系统化的择校查证方法论，覆盖学硕/专硕全方向、权威来源、408/自命题、难度评估、时间线与资料检索。
 
-> 💡 **同名插件**：如果你需要模型**直接调用工具查询院校数据**（而非仅靠知识回答），可以额外安装 [`dsh-kaoyan` 插件](https://github.com/你的用户名/dsh-kaoyan)，它提供 `kaoyan_schools` / `kaoyan_guide` 两个可调用工具，与本技能互补。
-
 ---
 
 ## ✨ 功能
@@ -25,7 +23,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/kaoyan-cs.git
+git clone https://github.com/jiangjank2-arch/kaoyan-cs.git
 
 # 2a. 全局安装（所有项目可用）
 cp -r kaoyan-cs ~/.dsh/skills/
